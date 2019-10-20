@@ -1,0 +1,36 @@
+Group    Home                  "ControlFarms"   <house>                                   ["Building"]
+
+Group    GF                    "Ground Floor"   <groundfloor>   (Home)                    ["GroundFloor"]
+
+Group    Bedroom               "Bedroom"        <bedroom>       (Home)                    ["Bedroom"]
+Group    Cellar                "Cellar"         <cellar>        (Home)                    ["Cellar"]
+Group    FrontYard             "Front Yard"     <lawnmower>     (Home)                    ["Garden"]
+Group    Shed                  "Shed"           <greenhouse>    (Home)                    ["Garage"]
+Group    StorageRoom           "Storage Room"   <suitcase>      (Home)                    ["Room"]
+Group    Outside               "Outside"        <garden>        (Home)                    ["Outside"]
+
+Switch   Bedroom_Light         "Light"          <light>         (Bedroom, gLight)         ["Lighting", "Switchable"]   {channel=""}
+Switch   Bedroom_Fan           "Fan"            <fan_ceiling>   (Bedroom, gFan)           ["Switchable"]               {channel=""}
+Number   Bedroom_Temperature   "Temperature"    <temperature>   (Bedroom, gTemperature)   ["Temperature"]              {channel=""}
+Number   Bedroom_Humidity      "Humidity"       <humidity>      (Bedroom, gHumidity)      ["Humidity"]                 {channel=""}
+Switch   Bedroom_Power         "Power Outlet"   <poweroutlet>   (Bedroom, gPower)         ["Switch", "Switchable"]     {channel=""}
+Switch   Cellar_Light          "Light"          <light>         (Cellar, gLight)          ["Lighting", "Switchable"]   {channel=""}
+Switch   Cellar_Fan            "Fan"            <fan_ceiling>   (Cellar, gFan)            ["Switchable"]               {channel=""}
+Number   Cellar_Humidity       "Humidity"       <humidity>      (Cellar, gHumidity)       ["Humidity"]                 {channel=""}
+Number   Cellar_Heating        "Heating"        <heating>       (Cellar, gHeating)        ["HVAC"]                     {channel=""}
+Number   Cellar_Temperature    "Temperature"    <temperature>   (Cellar, gTemperature)    ["Temperature"]              {channel=""}
+Switch   FrontYard_Light       "Light"          <light>         (FrontYard, gLight)       ["Lighting", "Switchable"]   {channel=""}
+Switch   Shed_Light            "Light"          <light>         (Shed, gLight)            ["Lighting", "Switchable"]   {channel=""}
+Switch   Shed_Fan              "Fan"            <fan_ceiling>   (Shed, gFan)              ["Switchable"]               {channel=""}
+Number   Shed_Heating          "Heating"        <heating>       (Shed, gHeating)          ["HVAC"]                     {channel=""}
+Number   Shed_Temperature      "Temperature"    <temperature>   (Shed, gTemperature)      ["Temperature"]              {channel=""}
+Number   Shed_Humidity         "Humidity"       <humidity>      (Shed, gHumidity)         ["Humidity"]                 {channel=""}
+Switch   StorageRoom_Light     "Light"          <light>         (StorageRoom, gLight)     ["Lighting", "Switchable"]   {channel=""}
+Switch   Outside_Light         "Light"          <light>         (Outside, gLight)         ["Lighting", "Switchable"]   {channel=""}
+
+Group:Switch:OR(ON, OFF)   gLight         "Light"          <light>         (Home)   ["Lighting", "Switchable"]
+Group:Switch:OR(ON, OFF)   gFan           "Fan"            <fan_ceiling>   (Home)   ["Switchable"]
+Group:Number:AVG           gTemperature   "Temperature"    <temperature>   (Home)   ["Temperature"]
+Group:Number:AVG           gHumidity      "Humidity"       <humidity>      (Home)   ["Humidity"]
+Group:Switch:OR(ON, OFF)   gPower         "Power Outlet"   <poweroutlet>   (Home)   ["Switch", "Switchable"]
+Group:Number:AVG           gHeating       "Heating"        <heating>       (Home)   ["HVAC"]
