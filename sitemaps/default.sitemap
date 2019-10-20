@@ -1,0 +1,48 @@
+sitemap controlfarms label="ControlFarms" {
+    Frame {
+        Group item=Bedroom
+        Group item=Cellar
+        Group item=FrontYard
+        Group item=Shed
+        Group item=StorageRoom
+        Group item=Outside
+    }
+
+    Frame {
+        Text label="Light" icon="light" {
+            Default item=Bedroom_Light label="Bedroom"
+            Default item=Cellar_Light label="Cellar"
+            Default item=FrontYard_Light label="Front Yard"
+            Default item=Shed_Light label="Shed"
+            Default item=StorageRoom_Light label="Storage Room"
+            Default item=Outside_Light label="Outside"
+        }
+
+        Text label="Fan" icon="fan_ceiling" {
+            Default item=Bedroom_Fan label="Bedroom"
+            Default item=Cellar_Fan label="Cellar"
+            Default item=Shed_Fan label="Shed"
+        }
+
+        Text label="Temperature" icon="temperature" {
+            Default item=Bedroom_Temperature label="Bedroom"
+            Default item=Cellar_Temperature label="Cellar"
+            Default item=Shed_Temperature label="Shed"
+        }
+
+        Text label="Humidity" icon="humidity" {
+            Default item=Bedroom_Humidity label="Bedroom"
+            Default item=Cellar_Humidity label="Cellar"
+            Default item=Shed_Humidity label="Shed"
+        }
+
+        Text label="Power Outlet" icon="poweroutlet" {
+            Default item=Bedroom_Power label="Bedroom"
+        }
+
+        Text label="Heating" icon="heating" {
+            Default item=Cellar_Heating label="Cellar"
+            Default item=Shed_Heating label="Shed"
+        }
+    }
+}
