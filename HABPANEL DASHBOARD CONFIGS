@@ -1,0 +1,332 @@
+[
+  {
+    "id": "Light",
+    "name": "Light",
+    "row": 0,
+    "col": 0,
+    "tile": {
+      "backdrop_iconset": "eclipse-smarthome-classic",
+      "backdrop_icon": "light",
+      "icon_size": 32
+    },
+    "widgets": [
+      {
+        "item": "Bedroom_Light",
+        "name": "Bedroom",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 0,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "light",
+        "icon_size": 64
+      },
+      {
+        "item": "Cellar_Light",
+        "name": "Cellar",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 2,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "light",
+        "icon_size": 64
+      },
+      {
+        "item": "FrontYard_Light",
+        "name": "Front Yard",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 4,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "light",
+        "icon_size": 64
+      },
+      {
+        "item": "Shed_Light",
+        "name": "Shed",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 6,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "light",
+        "icon_size": 64
+      },
+      {
+        "item": "StorageRoom_Light",
+        "name": "Storage Room",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 8,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "light",
+        "icon_size": 64
+      },
+      {
+        "item": "Outside_Light",
+        "name": "Outside",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 10,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "light",
+        "icon_size": 64
+      }
+    ]
+  },
+  {
+    "id": "Fan",
+    "name": "Fan",
+    "row": 0,
+    "col": 0,
+    "tile": {
+      "backdrop_iconset": "eclipse-smarthome-classic",
+      "backdrop_icon": "fan_ceiling",
+      "icon_size": 32
+    },
+    "widgets": [
+      {
+        "item": "Bedroom_Fan",
+        "name": "Bedroom",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 0,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "fan_ceiling",
+        "icon_size": 64
+      },
+      {
+        "item": "Cellar_Fan",
+        "name": "Cellar",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 2,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "fan_ceiling",
+        "icon_size": 64
+      },
+      {
+        "item": "Shed_Fan",
+        "name": "Shed",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 4,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "fan_ceiling",
+        "icon_size": 64
+      }
+    ]
+  },
+  {
+    "id": "Temperature",
+    "name": "Temperature",
+    "row": 0,
+    "col": 0,
+    "tile": {
+      "backdrop_iconset": "eclipse-smarthome-classic",
+      "backdrop_icon": "temperature",
+      "icon_size": 32
+    },
+    "widgets": [
+      {
+        "item": "Bedroom_Temperature",
+        "name": "Bedroom",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "dummy",
+        "row": 0,
+        "col": 0,
+        "font_size": "24",
+        "useserverformat": true,
+        "backdrop_iconset": "eclipse-smarthome-classic",
+        "backdrop_icon": "temperature",
+        "backdrop_center": true
+      },
+      {
+        "item": "Cellar_Temperature",
+        "name": "Cellar",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "dummy",
+        "row": 0,
+        "col": 2,
+        "font_size": "24",
+        "useserverformat": true,
+        "backdrop_iconset": "eclipse-smarthome-classic",
+        "backdrop_icon": "temperature",
+        "backdrop_center": true
+      },
+      {
+        "item": "Shed_Temperature",
+        "name": "Shed",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "dummy",
+        "row": 0,
+        "col": 4,
+        "font_size": "24",
+        "useserverformat": true,
+        "backdrop_iconset": "eclipse-smarthome-classic",
+        "backdrop_icon": "temperature",
+        "backdrop_center": true
+      }
+    ]
+  },
+  {
+    "id": "Humidity",
+    "name": "Humidity",
+    "row": 0,
+    "col": 0,
+    "tile": {
+      "backdrop_iconset": "eclipse-smarthome-classic",
+      "backdrop_icon": "humidity",
+      "icon_size": 32
+    },
+    "widgets": [
+      {
+        "item": "Bedroom_Humidity",
+        "name": "Bedroom",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "dummy",
+        "row": 0,
+        "col": 0,
+        "font_size": "24",
+        "useserverformat": true,
+        "backdrop_iconset": "eclipse-smarthome-classic",
+        "backdrop_icon": "humidity",
+        "backdrop_center": true
+      },
+      {
+        "item": "Cellar_Humidity",
+        "name": "Cellar",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "dummy",
+        "row": 0,
+        "col": 2,
+        "font_size": "24",
+        "useserverformat": true,
+        "backdrop_iconset": "eclipse-smarthome-classic",
+        "backdrop_icon": "humidity",
+        "backdrop_center": true
+      },
+      {
+        "item": "Shed_Humidity",
+        "name": "Shed",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "dummy",
+        "row": 0,
+        "col": 4,
+        "font_size": "24",
+        "useserverformat": true,
+        "backdrop_iconset": "eclipse-smarthome-classic",
+        "backdrop_icon": "humidity",
+        "backdrop_center": true
+      }
+    ]
+  },
+  {
+    "id": "Power",
+    "name": "Power Outlet",
+    "row": 0,
+    "col": 0,
+    "tile": {
+      "backdrop_iconset": "eclipse-smarthome-classic",
+      "backdrop_icon": "poweroutlet",
+      "icon_size": 32
+    },
+    "widgets": [
+      {
+        "item": "Bedroom_Power",
+        "name": "Bedroom",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "switch",
+        "row": 0,
+        "col": 0,
+        "font_size": "24",
+        "useserverformat": true,
+        "iconset": "eclipse-smarthome-classic",
+        "icon": "poweroutlet",
+        "icon_size": 64
+      }
+    ]
+  },
+  {
+    "id": "Heating",
+    "name": "Heating",
+    "row": 0,
+    "col": 0,
+    "tile": {
+      "backdrop_iconset": "eclipse-smarthome-classic",
+      "backdrop_icon": "heating",
+      "icon_size": 32
+    },
+    "widgets": [
+      {
+        "item": "Cellar_Heating",
+        "name": "Cellar",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "dummy",
+        "row": 0,
+        "col": 0,
+        "font_size": "24",
+        "useserverformat": true,
+        "backdrop_iconset": "eclipse-smarthome-classic",
+        "backdrop_icon": "heating",
+        "backdrop_center": true
+      },
+      {
+        "item": "Shed_Heating",
+        "name": "Shed",
+        "sizeX": 2,
+        "sizeY": 2,
+        "type": "dummy",
+        "row": 0,
+        "col": 2,
+        "font_size": "24",
+        "useserverformat": true,
+        "backdrop_iconset": "eclipse-smarthome-classic",
+        "backdrop_icon": "heating",
+        "backdrop_center": true
+      }
+    ]
+  }
+]
